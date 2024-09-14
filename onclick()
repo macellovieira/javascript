@@ -3,3 +3,7 @@ onclick="location.href='#'
 onclick="location.href='index.html'"
 
 onclick="window.location.reload();"
+
+onclick="history.back()"
+
+onclick="history.go(-1)"
