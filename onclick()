@@ -7,3 +7,5 @@ onclick="window.location.reload();"
 onclick="history.back()"
 
 onclick="history.go(-1)"
+
+onclick="history.forward()"
