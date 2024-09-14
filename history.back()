@@ -1,6 +1,7 @@
 <script language="JavaScript">
 
-       window.alert(' *** TEXTO *** ');
-       history.back()
+        window.alert(' *** TEXTO *** ');
+        history.back()
+        window.history.forward()
 
 </script>
