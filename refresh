@@ -1,0 +1,11 @@
+<script>
+
+        function goBackAndRefresh() 
+        {
+          window.history.go(-1);
+          setTimeout(() => { location.reload(); }, 0);
+        }
+
+</script>
+
+<button onclick="goBackAndRefresh()">Go Back</button>
