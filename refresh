@@ -8,4 +8,6 @@
 
 </script>
 
-<button onclick="goBackAndRefresh()">Go Back</button>
+<button onclick="goBackAndRefresh()"> Go Back </button>
+
+<a onclick="goBackAndRefresh(); return false;" style="cursor: pointer;">Go Back</a>
