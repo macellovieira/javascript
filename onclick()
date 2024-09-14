@@ -1,1 +1,5 @@
-onclick="location.href='solicitantes_painel_lista.asp'"
+onclick="location.href='index.html'"
+
+onclick="window.location.reload();"
+
+
