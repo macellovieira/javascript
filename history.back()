@@ -1,0 +1,6 @@
+<script language="JavaScript">
+
+       window.alert(' *** TEXTO *** ');
+       history.back()
+
+</script>
