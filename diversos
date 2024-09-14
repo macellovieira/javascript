@@ -1,0 +1,50 @@
+     <script>    
+
+                function Abrir_URL( vURL )
+                {
+                         window.location.href = vURL
+                }
+
+                function Abrir_URL_ABA_Nova( vURL )
+                {
+                         //window.location.href = vURL
+                           window.open( vURL , '_blank');
+                }                
+
+                function Confirma_Ativar( vURL )
+                {
+                    if( confirm(" Confirmma - RE-ATIVAÇÃO ? ") ) 
+                    {
+                        window.location.href = vURL
+                    } 
+                    else 
+                    {
+                        false;
+                    }       
+                }
+
+                function Confirma_Inativar( vURL )
+                {
+                    if( confirm(" Confirmma - INATIVAÇÃO ? ") ) 
+                    {
+                        window.location.href = vURL
+                    } 
+                    else 
+                    {
+                        false;
+                    }       
+                }
+
+                function Confirma_Excluir( vURL )
+                {
+                    if( confirm(" Confirmma - EXCLUSÃO ? ") ) 
+                    {
+                        window.location.href = vURL
+                    } 
+                    else 
+                    {
+                        false;
+                    }       
+                }
+
+     </script>
