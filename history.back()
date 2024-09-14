@@ -2,6 +2,6 @@
 
         window.alert(' *** TEXTO *** ');
         history.back()
-        window.history.forward()
+        window.history.forward() ' Avança
 
 </script>
