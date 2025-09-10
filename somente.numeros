@@ -1,0 +1,38 @@
+<input type="text" value="" id="usuario" onkeypress="return event.charCode >= 48 && event.charCode <= 57" 
+       name="usuario" placeholder="Informe seu Usuario" >
+
+
+ou                                               
+
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Somente Números</title>
+
+  <script>
+    function permitirSomenteNumeros(event) {
+      let tecla = event.key;
+
+      // Permite apenas números e teclas de controle (backspace, delete, setas, tab, etc.)
+      if (!/[0-9]/.test(tecla) && tecla !== "Backspace" && tecla !== "Delete" && tecla !== "ArrowLeft" && tecla !== "ArrowRight" && tecla !== "Tab") {
+        event.preventDefault();
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <label>Digite apenas números:</label>
+  <input type="text" onkeydown="permitirSomenteNumeros(event)">
+
+</body>
+
+</html>
